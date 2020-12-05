@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 7016 4961" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:23.6229}
+    .str1 {stroke:black;stroke-width:0.900032}
+    .fil0 {fill:none}
+    .fil2 {fill:black}
+    .fil5 {fill:red}
+    .fil1 {fill:white}
+    .fil4 {fill:black;fill-rule:nonzero}
+    .fil3 {fill:white;fill-rule:nonzero}
+    .fil6 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+   <rect class="fil0" x="525" y="92" width="5976" height="4700"/>
+   <rect class="fil1 str0" x="692" y="260" width="5641" height="4365" rx="218" ry="233"/>
+   <path class="fil2" d="m3542 492h784c451 0 787 573 787 908h-2287c0-335 265-908 716-908z"/>
+   <rect class="fil2" x="925" y="1081" width="5175" height="3311" rx="905" ry="541"/>
+   <path class="fil3" d="m2174 2705c0-991 803-1793 1794-1793 990 0 1793 802 1793 1793 0 990-803 1793-1793 1793-991 0-1794-803-1794-1793z"/>
+   <path class="fil4" d="m2259 2705c0-950 765-1720 1709-1720 943 0 1709 770 1709 1720s-766 1720-1709 1720c-944 0-1709-770-1709-1720z"/>
+   <path class="fil3" d="m2624 2705c0-742 602-1344 1344-1344s1343 602 1343 1344-601 1343-1343 1343-1344-601-1344-1343z"/>
+   <circle class="fil1" cx="2229" cy="1682" r="185"/>
+   <rect class="fil1" x="1835" y="2043" width="42.623" height="2179.7" rx="21" ry="43"/>
+   <path class="fil2" d="m1667 1004h33c161 0 409 129 409 204h-819c0-75 215-204 377-204z"/>
+   <path class="fil5" d="m2043 1406c0 44-168 91-376 91s-377-47-377-91c188 40 282 48 377 48 94 0 188-8 376-48z"/>
+   <ellipse class="fil1" cx="1667" cy="1174" rx="185" ry="93"/>
+   <path class="fil6" d="m5691 2853c14 4 26 6 39 6 79 0 142-68 142-151 0-84-63-152-142-152-13 0-26 2-39 6-6-25-13-50-20-76 20-6 38-9 59-9 120 0 216 103 216 231 0 127-96 230-216 230-20 0-39-3-59-9 7-25 0 0 20-76z"/>
+   <path class="fil3 str1" d="m2691 2705c0-706 571-1277 1277-1277 705 0 1277 571 1277 1277 0 705-572 1277-1277 1277-706 0-1277-572-1277-1277z"/>
+   <polygon class="fil3" points="4033 2511 4144 2605 4148 2608 4153 2755 4058 2866 3909 2877 3800 2784 3786 2635 3882 2522"/>
+</svg>
