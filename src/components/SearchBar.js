@@ -9,8 +9,8 @@ export default function SearchBar(props) {
 	}
 
 	return (
-		<div className="max-w-sm rounded overflow-hidden my-10 mx-auto">
-			<form className="w-full max-w-sm" onSubmit={onSubmit}>
+		<div className="max-w-sm flex justify-center overflow-hidden mt-5 mb-10 mx-auto">
+			<form className="sm:w-full" onSubmit={onSubmit}>
 				<div className="flex items-center border-b border-green-500 py-2">
 					<input
 						type="text"
