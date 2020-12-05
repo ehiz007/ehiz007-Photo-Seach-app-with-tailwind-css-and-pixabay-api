@@ -4,7 +4,7 @@ export default function ImageCard(props) {
 	const { image } = props
 	const tags = image.tags.split(",")
 	return (
-		<div className="max-w-sm rounded flex:none justify-center max-h-sm bg-white overflow-hidden shadow-lg">
+		<div className="max-w-sm rounded mx-auto  bg-white overflow-hidden shadow-lg">
 			<img src={image.webformatURL} className="w-full" alt="Loading..." />
 			<div className="px-6 py-4">
 				<div className="font-bold text-green-500 text-xl mb-2">

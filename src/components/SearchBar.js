@@ -4,8 +4,10 @@ export default function SearchBar(props) {
 	const [text, setText] = useState("")
 	const onSubmit = (e) => {
 		e.preventDefault()
+		props.setLoadingImages()
+		props.setImages()
 		props.setTerm(text)
-		e.target.value = ""
+		setText("")
 	}
 
 	return (
@@ -20,7 +22,7 @@ export default function SearchBar(props) {
 						placeholder="Search image"
 					/>
 					<button
-						className="flex-shrink-1 hover:bg-green-400 rounded border-green-400 text-sm border-2 px-2 py-1"
+						className="flex-shrink-1 hover:bg-green-400 rounded border-green-400 text-sm border-2 px-2 py-1 transition duration-400 transform hover:-translate-x-1 hover:scale-110"
 						type="submit"
 					>
 						Search

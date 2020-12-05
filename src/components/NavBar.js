@@ -2,9 +2,8 @@ import React from "react"
 
 function NavBar() {
 	return (
-		<nav className="mt-3">
-			<div className="sm:flex "></div>
-			<div class="flex-none pl-4 sm:pl-6 xl:pl-8 flex items-center  lg:border-b-0 lg:w-60 xl:w-72">
+		<nav className="mt-3 ">
+			<div class="flex-none pl-4 sm:pl-6 xl:pl-8 flex items-center lg:border-b-0 lg:w-60 xl:w-72 transition duration-400 ease-in-out transform hover:-translate-x-1 hover:scale-110 ">
 				<img
 					className="w-auto bg-green-400 mr-2 h-14 "
 					src="https://raw.githubusercontent.com/ehiz007/ehiz007-Photo-Seach-app-with-tailwind-css-and-pixabay-api/e9bfecd80d9b94ee3f3544e209cd4a48ec65a89e/public/vector.svg"

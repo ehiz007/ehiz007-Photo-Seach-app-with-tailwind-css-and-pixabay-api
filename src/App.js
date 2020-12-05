@@ -7,6 +7,7 @@ export default function App() {
 	const [images, setImages] = useState([])
 	const [isLoading, setIsloading] = useState(true)
 	const [term, setTerm] = useState("")
+	const [loadingImages, setLoadingImages] = useState(true)
 
 	useEffect(() => {
 		axios
@@ -16,6 +17,7 @@ export default function App() {
 			.then((res) => {
 				setImages(res.data.hits)
 				setIsloading(false)
+				setLoadingImages(false)
 			})
 			.catch((err) => console.log(err))
 	}, [term])
@@ -31,17 +33,28 @@ export default function App() {
 				) : (
 					<Fragment>
 						<NavBar />
-						<SearchBar setTerm={(text) => setTerm(text)} />
-						{!isLoading && images.length === 0 && (
+						<SearchBar
+							isLoading={isLoading}
+							setImages={() => setImages([])}
+							setTerm={(text) => setTerm(text)}
+							setLoadingImages={() => setLoadingImages(true)}
+						/>
+						{!isLoading && !loadingImages && images.length === 0 && (
 							<h1 className="text-5xl text-center mx-auto mt-32 animate-bounce">
 								Search word does not exists
 							</h1>
 						)}
-						<div className="grid md:flex:row md:grid-cols-3 gap-4 px-6 mx-auto">
-							{images.map((image, index) => (
-								<ImageCard key={index} image={image} />
-							))}
-						</div>
+						{loadingImages ? (
+							<h1 className="text-4xl text-center mx-auto mt-20 animate-spin font-bold">
+								loading pictures
+							</h1>
+						) : (
+							<div className="grid md:flex:row md:grid-cols-3 gap-4 px-6 mx-auto">
+								{images.map((image, index) => (
+									<ImageCard key={index} image={image} />
+								))}
+							</div>
+						)}
 					</Fragment>
 				)}
 			</div>
