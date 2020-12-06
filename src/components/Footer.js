@@ -6,12 +6,12 @@ function Footer() {
 			<div className="max-w-container mx-auto font-bold text-center space-y-4 md:space-y-0 md:flex md:justify-center">
 				<h1 className="text-gray mr-4">&copy; 2020 Copyright Photo App.</h1>
 				<h1 className="mt-2">
-					Designed by :
+					Designed by
 					<a
 						href="https://twitter.com/Ehiz_briel"
-						className="font-medium text-gray-900 hover:text-gray-500 transition-colors duration-150"
+						className="font-medium text-blue-400 hover:text-gray-500 transition-colors duration-150"
 					>
-						<span> @Ehiz_briel</span>
+						<span className=" mx-auto text-blue-400"> @Ehiz_briel</span>
 					</a>
 				</h1>
 			</div>
