@@ -3,6 +3,8 @@ import React, { useState, useEffect, Fragment } from "react"
 import ImageCard from "./components/ImageCard"
 import SearchBar from "./components/SearchBar"
 import NavBar from "./components/NavBar"
+import Footer from "./components/Footer"
+
 export default function App() {
 	const [images, setImages] = useState([])
 	const [isLoading, setIsloading] = useState(true)
@@ -23,15 +25,15 @@ export default function App() {
 	}, [term])
 	return (
 		<div>
-			<div className="container  mx-auto ">
-				{isLoading ? (
-					<div>
-						<h1 className="text-6xl text-center mx-auto mt-32 animate-pulse">
-							Loading.....
-						</h1>
-					</div>
-				) : (
-					<Fragment>
+			{isLoading ? (
+				<div className="container  mx-auto ">
+					<h1 className="text-6xl text-center mx-auto mt-32 animate-pulse">
+						Loading.....
+					</h1>
+				</div>
+			) : (
+				<div>
+					<Fragment className="container  mx-auto mb-10">
 						<NavBar />
 						<SearchBar
 							isLoading={isLoading}
@@ -56,8 +58,9 @@ export default function App() {
 							</div>
 						)}
 					</Fragment>
-				)}
-			</div>
+					<Footer />
+				</div>
+			)}
 		</div>
 	)
 }
