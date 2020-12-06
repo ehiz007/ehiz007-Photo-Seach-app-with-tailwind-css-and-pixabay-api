@@ -103,13 +103,3 @@ export default function ImageCard(props) {
 		</div>
 	)
 }
-
-;<a
-	class="dl_btn pure-button button-green button-md ua-download-button"
-	data-w="332"
-	style="display:inline-block;width:49%;"
-	href="/images/download/boys-1807545_1920.jpg?attachment"
-	target=""
->
-	Download
-</a>

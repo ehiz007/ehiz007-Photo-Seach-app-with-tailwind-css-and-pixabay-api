@@ -20,5 +20,3 @@ function Footer() {
 }
 
 export default Footer
-
-// space-y-6 md:space-y-0 md:space-x-10 flex flex-col items-center md:flex-row
