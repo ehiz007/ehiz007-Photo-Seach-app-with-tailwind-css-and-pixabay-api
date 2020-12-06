@@ -9,7 +9,7 @@ function NavBar() {
 					src="https://raw.githubusercontent.com/ehiz007/ehiz007-Photo-Seach-app-with-tailwind-css-and-pixabay-api/e9bfecd80d9b94ee3f3544e209cd4a48ec65a89e/public/vector.svg"
 					alt="loading"
 				/>
-				<a class="" href="/">
+				<a href="/">
 					<span className="text-xl font-bold font-serif text-overflow-truncate">
 						Photo Search App
 					</span>

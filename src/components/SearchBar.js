@@ -7,7 +7,7 @@ export default function SearchBar(props) {
 		props.setLoadingImages()
 		props.setImages()
 		props.setTerm(text)
-		setText("")
+		setTimeout(() => setText(""), 1500)
 	}
 
 	return (
