@@ -3,10 +3,7 @@ import React from "react"
 export default function ImageCard(props) {
 	const { image } = props
 	const tags = image.tags.split(",")
-	// const download = () => {
-	// 	const downloadUrl = image.largeImageURL
-	// 	const downloading = browser.download.downloads({})
-	// }
+
 	return (
 		<div className="max-w-sm rounded mx-auto  bg-white overflow-hidden shadow-lg">
 			<img src={image.webformatURL} className="w-full" alt="Loading..." />
